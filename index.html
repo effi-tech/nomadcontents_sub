@@ -491,9 +491,8 @@
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1I0NNtDD6lRICkhFFq2YVp1i', quantity: 1}],
-      mode: 'payment',
-      /*
+    lineItems: [{price: 'price_1I2XbfDD6lRICkhF0uTv5vMe', quantity: 1}],
+      mode: 'subscription',      /*
        * Do not rely on the redirect to the successUrl for fulfilling
        * purchases, customers may not always reach the success_url after
        * a successful payment.
@@ -543,8 +542,8 @@
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1I0NJqDD6lRICkhFq31ZdbsT', quantity: 1}],
-      mode: 'payment',
+      lineItems: [{price: 'price_1I2XbfDD6lRICkhF0uTv5vMe', quantity: 1}],
+      mode: 'subscription',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
        * purchases, customers may not always reach the success_url after
